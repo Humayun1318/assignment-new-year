@@ -101,9 +101,10 @@ ul li:before {
 .plans-flex-sub-section {
   align-items: center;
   box-shadow: 0px 6px 50px rgba(188, 190, 161, 0.419);
-  height: 250px;
+  height: 220px;
   padding-top: 25px;
   border-radius: 25px;
+  width: 350px;
 }
 .plans-title {
   font-weight: 700;
@@ -115,9 +116,10 @@ ul li:before {
 }
 .plans-description {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   color: #737272;
   margin-bottom: 135px;
+  text-align: center;
 }
 img {
   display: block;
