@@ -2,6 +2,7 @@
   margin: 0px;
   font-family: "Open Sans", sans-serif;
 }
+
 /* This is first section of this Web or header */
 .header {
   background-image: url(images/banner/banner1.png);
@@ -32,7 +33,7 @@
   border: 0;
   border-radius: 5px;
   background: #fd6e0a;
-  margin-bottom: 166px;
+  /* margin-bottom: 166px; */
   font-weight: 600;
   font-size: 20px;
   padding: 20px 25px 20px 26px;
@@ -42,6 +43,7 @@
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   background-color: #d8b59c;
 }
+
 /* Thus is history section design */
 .section-container {
   margin-top: 135px;
@@ -82,6 +84,7 @@ ul li:before {
   content: "✓";
   color: #46f31a;
 }
+
 /* This year plans of me/what i will in this year */
 .plans {
   text-align: center;
@@ -118,19 +121,36 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Gradient section */
+.gradient-design {
+  margin: 130px 230px;
+  background: linear-gradient(to left,rgba(240, 96, 39, 0), #F15B22 ), url(images/watch.png);
+  background-repeat: no-repeat;
+  padding: 60px 617px 40px 64px;
+  border-radius: 8px;
+  
+ 
+
+  
+}
+.gradient-title {
+  
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
 /* this is footer section design */
 .footer-container {
   background: #151414;
-  
   height: 577px;
   color: #ffffff;
 }
 .footer-section-flex {
   display: flex;
-  
 }
 .footer-sub-section-1 {
- 
   margin-top: 130px;
   margin-left: 200px;
   margin-right: 225px;
@@ -142,7 +162,6 @@ img {
   line-height: 52px;
 }
 .footer-description {
- 
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -150,10 +169,8 @@ img {
 .inline {
   display: flex;
   gap: 20px;
-  
 }
 .subscribe {
- 
   font-weight: 600;
   font-size: 25px;
   line-height: 29px;
@@ -170,11 +187,11 @@ img {
   border-radius: 8px;
   border: 0;
   padding-left: 10px;
-  
+
   font-weight: 400;
   font-size: 18px;
 }
-.footer{
+.footer {
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 50px;
 }
