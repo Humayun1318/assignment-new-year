@@ -96,7 +96,7 @@ ul li:before {
   margin-bottom: 55px;
   color: #151414;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
 }
 .plans-flex-section {
   display: flex;
@@ -108,7 +108,7 @@ ul li:before {
   box-shadow: 0px 6px 50px rgba(188, 190, 161, 0.419);
   height: 250px;
   padding-top: 25px;
-  border-radius: 5%;
+  border-radius: 25px;
 }
 .plans-title {
   font-weight: 700;
@@ -174,7 +174,7 @@ img {
     url(images/watch.png);
   background-repeat: no-repeat;
   padding: 60px 617px 40px 64px;
-  border-radius: 8px;
+  border-radius: 25px;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.2);
 }
 .gradient-title {
