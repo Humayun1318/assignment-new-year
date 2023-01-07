@@ -36,6 +36,7 @@
   font-weight: 600;
   font-size: 20px;
   padding: 20px 25px 20px 26px;
+  color: #ffffff;
 }
 .btn-design:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
@@ -70,50 +71,110 @@
   /* margin-right: 500px; */
   /* margin-bottom: 16px; */
 }
-ul{
-    list-style: none;
-    width: 350px;
-    color: #444343;
-    padding: 10px;
-    
+ul {
+  list-style: none;
+  width: 350px;
+  color: #444343;
+  padding: 10px;
 }
-  
+
 ul li:before {
-    content:  '✓';
-    color: #46f31a;
+  content: "✓";
+  color: #46f31a;
 }
 /* This year plans of me/what i will in this year */
-.plans{
-    text-align: center;
-    margin-bottom: 55px;
-    color: #151414;
+.plans {
+  text-align: center;
+  margin-bottom: 55px;
+  color: #151414;
   font-weight: 700;
   font-size: 40px;
 }
-.plans-flex-section{
-    display: flex;
-    gap: 85px;
-    justify-content: space-around;
+.plans-flex-section {
+  display: flex;
+  gap: 85px;
+  justify-content: space-around;
 }
-.plans-flex-sub-section{
-align-items: center;
+.plans-flex-sub-section {
+  align-items: center;
 }
-.plans-title{
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    color: #151414;
-    margin-bottom: 16px;
-    margin-top: 24px;
+.plans-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 16px;
+  margin-top: 24px;
+  /* text-align: center; */
 }
-.plans-description{
-    font-weight: 500;
-    font-size: 25px;
-    color: #737272;
-    margin-bottom: 135px;
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  margin-bottom: 135px;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* this is footer section design */
+.footer-container {
+  background: #151414;
+  
+  height: 577px;
+  color: #ffffff;
+}
+.footer-section-flex {
+  display: flex;
+  
+}
+.footer-sub-section-1 {
+ 
+  margin-top: 130px;
+  margin-left: 200px;
+  margin-right: 225px;
+}
+.footer-section-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+  line-height: 52px;
+}
+.footer-description {
+ 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.inline {
+  display: flex;
+  gap: 20px;
+  
+}
+.subscribe {
+ 
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 31px;
+}
+.footer-sub-section-2 {
+  margin-right: 230px;
+  margin-top: 130px;
+}
+.email-box {
+  width: 325px;
+  height: 64px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 0;
+  padding-left: 10px;
+  
+  font-weight: 400;
+  font-size: 18px;
+}
+.footer{
+  text-align: center;
+  padding-bottom: 30px;
 }
