@@ -8,7 +8,7 @@
   background-image: url(images/banner/banner1.png);
   background-size: cover;
 
-  height: 900px;
+  height: 800px;
 }
 .banner {
   padding-top: 220px;
@@ -20,8 +20,6 @@
   font-weight: 700;
   font-size: 65px;
   color: #151414;
-  /* text-align: right; */
-  /* align-items: stretch; */
 }
 .banner-description {
   margin-bottom: 35px;
@@ -33,7 +31,6 @@
   border: 0;
   border-radius: 5px;
   background: #fd6e0a;
-  /* margin-bottom: 166px; */
   font-weight: 600;
   font-size: 20px;
   padding: 20px 25px 20px 26px;
@@ -57,7 +54,6 @@
 }
 .history-of-past {
   margin-right: 322px;
-  /* margin-bottom: 215px; */
 }
 .history-title {
   color: #151414;
@@ -70,8 +66,6 @@
   font-weight: 400;
   font-size: 16px;
   color: #444343;
-  /* margin-right: 500px; */
-  /* margin-bottom: 16px; */
 }
 ul {
   list-style: none;
@@ -85,7 +79,8 @@ ul li:before {
   color: #46f31a;
 }
 
-/* This year plans of me/what i will in this year */
+/* This year plans of me/what i will do in this year */
+
 .section-container-2 {
   margin-top: 135px;
   margin-left: 230px;
@@ -130,7 +125,7 @@ img {
   margin-right: auto;
 }
 
-/* This is my actual goal in next 6-10 months  */
+/* This is my actual goal in next 6 to 10 months  */
 
 .section-container-3 {
   margin: 130px 230px;
@@ -151,7 +146,6 @@ img {
   box-shadow: 0px 6px 50px rgba(181, 161, 190, 0.453);
   border-radius: 20%;
   height: 500px;
-  /* display: block; */
 }
 .goal-title {
   font-size: 50px;
@@ -184,6 +178,7 @@ img {
 }
 
 /* this is footer section design */
+
 .footer-container {
   background: #151414;
   height: 577px;
